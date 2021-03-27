@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "description": "Chrome extension for Graphic Equalizer.",
   "scripts": {
-    "jslint": "eslint javascripts/*.js",
-    "stylelint": "stylelint stylesheets/*.css",
-    "lint": "npm run jslint && npm run stylelint"
+    "lint:js": "eslint javascripts/*.js",
+    "lint:css": "stylelint stylesheets/*.css",
+    "fix:js": "eslint --fix javascripts/*.js",
+    "fix:css": "stylelint --fix stylesheets/*.css",
+    "lint": "npm run lint:js && npm run lint:css",
+    "fix": "npm run fix:js && npm run lint:css"
   },
   "repository": {
     "type": "git",
