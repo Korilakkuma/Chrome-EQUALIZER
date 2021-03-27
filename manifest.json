@@ -24,7 +24,7 @@
         "https://*/*"
       ],
       "css": ["stylesheets/content.css"],
-      "js": ["lib/xsound.js", "javascripts/UI.js", "javascripts/GraphicEqualizer.js"]
+      "js": ["node_modules/xsound/build/xsound.js", "javascripts/UI.js", "javascripts/GraphicEqualizer.js"]
     }
   ],
   "permissions": [
