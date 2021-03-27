@@ -10,30 +10,13 @@ This uses Web Audio API Library ([XSound](https://github.com/Korilakkuma/XSound)
 $ git clone git@github.com:Korilakkuma/Chrome-EQUALIZER.git
 ```
 
-## 2. Install to Google Chrome
+## 2. Install npm packages
 
-### 1. More Tools > Extensions
+```bash
+$ cd Chrome-EQUALIZER
+$ npm install
+```
 
-![More Tools > Extensions](https://user-images.githubusercontent.com/4006693/53013389-05900800-3489-11e9-9245-60ecdc5ffe3b.png)
+## 3. Install to Google Chrome
 
-### 2. Check Developer mode
-
-![Check Developer mode](https://user-images.githubusercontent.com/4006693/53013408-180a4180-3489-11e9-9aca-f6bca678890b.png)
-
-### 3. Load unpacked extension
-
-![Load unpacked extension](https://user-images.githubusercontent.com/4006693/53013438-29534e00-3489-11e9-9e92-e6315194f6c4.png)
-
-### 4. Select Chrome-EQUALIZER directory
-
-![Select Chrome-EQUALIZER directory](https://user-images.githubusercontent.com/4006693/53407939-ad18b780-3a00-11e9-9d46-495b342c9a93.png)
-
-### 5. Installed
-
-![Installed](https://user-images.githubusercontent.com/4006693/53408135-2adcc300-3a01-11e9-92d0-7913f0d236b8.png)
-
-## 3. Usage
-
-For exmaple,
-
-![YouTube](https://user-images.githubusercontent.com/4006693/53408641-5613e200-3a02-11e9-9b8f-ca28c158501b.gif)
+![Chrome EQUALIZER](https://user-images.githubusercontent.com/4006693/112753186-80855e80-9011-11eb-8d3e-6820e0e32d80.gif)
