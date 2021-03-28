@@ -26,14 +26,14 @@
     "url": "https://github.com/Korilakkuma/Chrome-EQUALIZER/issues"
   },
   "homepage": "https://github.com/Korilakkuma/Chrome-EQUALIZER",
+  "dependencies": {
+    "xsound": "^2.24.3"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.6.0",
+    "eslint": "^7.23.0",
     "eslint-cli": "^1.1.1",
-    "stylelint": "^11.1.1",
-    "stylelint-config-standard": "^19.0.0"
-  },
-  "dependencies": {
-    "xsound": "^2.16.1"
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0"
   }
 }
